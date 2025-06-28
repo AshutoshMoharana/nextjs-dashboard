@@ -1,3 +1,9 @@
-export default function page(params:string) {
-    return (<p>Customers Page</p>)
+export default function Page({
+  params,
+  searchParams,
+}: {
+  params?: any;
+  searchParams?: any;
+}) {
+  return <p>Customers Page</p>;
 }
